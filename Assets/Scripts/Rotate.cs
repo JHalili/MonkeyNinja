@@ -9,9 +9,4 @@ public class Rotate : MonoBehaviour {
         rigidBody = GetComponent<Rigidbody2D>();
         rigidBody.angularVelocity = rotationSpeed;
     }
-	
-	// Update is called once per frame
-	void Update () {
-
-	}
 }

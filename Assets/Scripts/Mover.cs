@@ -9,11 +9,6 @@ public class Mover : MonoBehaviour {
 	void Start () {
         rigidBody = GetComponent<Rigidbody2D>();
         direction = new Vector2(0, 1);
-        rigidBody.velocity = direction;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+        rigidBody.velocity = direction * speed;
 	}
 }
