@@ -13,13 +13,4 @@ public class TapHandler : MonoBehaviour {
 	void Update () {
 
 	}
-
-    // EVENTS
-    public void onMouseDown() {
-        Console.WriteLine("Mouse Down ");
-    }
-
-    public void onMouseUp() {
-
-    }
 }
